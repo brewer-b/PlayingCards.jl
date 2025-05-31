@@ -1,0 +1,4 @@
+name = "PlayingCards"
+uuid = "a9994b6a-d280-4708-9be4-3391e8077a39"
+authors = ["Brian Brewer <44099384+brewer-b@users.noreply.github.com>"]
+version = "0.1.0"
