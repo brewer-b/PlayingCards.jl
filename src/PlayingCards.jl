@@ -70,7 +70,7 @@ holecards_to_idx(card1, card2) = _holecards_to_idx[card1, card2]
 holecards_to_idx(card1::Card, card2::Card) = _holecards_to_idx[card1.val, card2.val]
 
 card_bits(card::Card) = UInt64(1) << card.val
-function card_bits(cards::Vector{Card})
+function card_bits(cards::AbstractArray{Card})
     bits = 0
     for card in cards
         bits |= card_bits(card)
